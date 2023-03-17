@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,38 +13,35 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" userLabel="SuperView">
-                        <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rV-ds-rAo" userLabel="ViewYellow">
-                                <rect key="frame" x="16" y="47" width="808" height="92"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxT-fz-VBE" userLabel="ViewRed">
-                                <rect key="frame" x="0.0" y="189" width="844" height="167"/>
+                                <rect key="frame" x="16" y="468" width="398" height="430"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rV-ds-rAo" userLabel="ViewYellow">
+                                <rect key="frame" x="16" y="59" width="398" height="389"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5rV-ds-rAo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="2F9-uz-AId"/>
-                            <constraint firstItem="cxT-fz-VBE" firstAttribute="width" secondItem="vDu-zF-Fre" secondAttribute="width" id="5ah-tl-Jdy"/>
-                            <constraint firstItem="5rV-ds-rAo" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="16" id="9nz-sN-Bvi"/>
-                            <constraint firstItem="cxT-fz-VBE" firstAttribute="top" secondItem="5rV-ds-rAo" secondAttribute="bottom" constant="50" id="EoV-ne-Shl"/>
-                            <constraint firstItem="cxT-fz-VBE" firstAttribute="leading" secondItem="5rV-ds-rAo" secondAttribute="leading" id="bkk-61-RTG"/>
-                            <constraint firstItem="cxT-fz-VBE" firstAttribute="top" secondItem="5rV-ds-rAo" secondAttribute="bottom" constant="50" id="cIh-3K-hQP"/>
-                            <constraint firstAttribute="topMargin" secondItem="5rV-ds-rAo" secondAttribute="top" id="jAD-hc-pCN"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="cxT-fz-VBE" secondAttribute="bottom" id="mss-fW-JlD"/>
-                            <constraint firstItem="5rV-ds-rAo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="oFc-TI-XEN"/>
-                            <constraint firstItem="cxT-fz-VBE" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.42891" id="rip-Im-cJu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5rV-ds-rAo" secondAttribute="trailing" id="v6d-Wf-hvO"/>
+                            <constraint firstItem="cxT-fz-VBE" firstAttribute="height" secondItem="5rV-ds-rAo" secondAttribute="height" multiplier="1.10619" id="7mX-b4-Hgs"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="cxT-fz-VBE" secondAttribute="bottom" id="CUu-Ah-DOh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="5rV-ds-rAo" secondAttribute="trailing" constant="16" id="Gjf-z5-Veh"/>
+                            <constraint firstItem="5rV-ds-rAo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="SeI-mj-3Ir"/>
+                            <constraint firstItem="5rV-ds-rAo" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="aZv-IJ-tVc"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cxT-fz-VBE" secondAttribute="trailing" constant="16" id="rhL-4Q-NC5"/>
+                            <constraint firstItem="cxT-fz-VBE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="web-ic-pzy"/>
+                            <constraint firstItem="cxT-fz-VBE" firstAttribute="top" secondItem="5rV-ds-rAo" secondAttribute="bottom" constant="20" id="yC8-Sp-3VZ"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26.153846153846153" y="2.8436018957345972"/>
+            <point key="canvasLocation" x="-28.125" y="2.112676056338028"/>
         </scene>
     </scenes>
     <resources>
